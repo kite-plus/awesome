@@ -1,0 +1,183 @@
+{
+  "kite": "0.1.1",
+  "themes": [
+    {
+      "name": "vane",
+      "repo": "https://github.com/kite-plus/theme-vane",
+      "category": "docs",
+      "official": true,
+      "version": "0.2.0",
+      "release": "https://github.com/kite-plus/theme-vane/releases/tag/v0.2.0",
+      "download": {
+        "url": "https://github.com/kite-plus/theme-vane/releases/download/v0.2.0/vane-0.2.0.zip",
+        "sha256": "d36f961d213241e97cc3d29226309cfa0c47c5578eb81b283b63b39f949f0aaf",
+        "size": 107303
+      },
+      "apiVersion": "kite/v1",
+      "requires": ">=0.1.0 <2.0.0",
+      "title": "Vane",
+      "description": "A documentation theme for product docs, project sites and knowledge bases, drawn on paper in ink. A home page with a kite in its sky, docs in an ordered tree with a table of contents, and news, by day and by night, with nothing loaded from third parties.",
+      "i18n": {
+        "zh-cn": {
+          "title": "风标",
+          "description": "为产品文档、项目官网和知识库设计的文档主题，纸上落墨。天空里飘着风筝的首页、按顺序排列的文档目录、页内目录和新闻，白天与夜晚两种样子，不从第三方加载任何资源。"
+        }
+      },
+      "author": {
+        "name": "Kite",
+        "url": "https://github.com/kite-plus"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/kite-plus/theme-vane",
+      "tags": [
+        "docs",
+        "documentation",
+        "paper",
+        "serif",
+        "dark mode"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/kite-plus/theme-vane/v0.2.0/screenshot.webp"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "analytics",
+      "repo": "https://github.com/kite-plus/plugin-analytics",
+      "category": "analytics",
+      "official": true,
+      "version": "0.1.0",
+      "release": "https://github.com/kite-plus/plugin-analytics/releases/tag/v0.1.0",
+      "download": {
+        "url": "https://github.com/kite-plus/plugin-analytics/releases/download/v0.1.0/analytics-0.1.0.zip",
+        "sha256": "077e540c3da8cd0e2c73656a77a12b19a2cf38f0ef742cab8315cc9a4107a17c",
+        "size": 8636
+      },
+      "apiVersion": "kite/plugin/v1",
+      "requires": ">=0.1.0 <2.0.0",
+      "title": "Analytics",
+      "description": "Counts visits with Baidu Tongji, Google Analytics, Umami or Plausible.",
+      "i18n": {
+        "zh-cn": {
+          "title": "访问统计",
+          "description": "用百度统计、Google Analytics、Umami 或 Plausible 统计访问量。"
+        }
+      },
+      "author": {
+        "name": "Kite",
+        "url": "https://github.com/kite-plus"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/kite-plus/plugin-analytics",
+      "hosts": [
+        "cloud.umami.is",
+        "hm.baidu.com",
+        "plausible.io",
+        "www.googletagmanager.com"
+      ]
+    },
+    {
+      "name": "comments",
+      "repo": "https://github.com/kite-plus/plugin-comments",
+      "category": "comments",
+      "official": true,
+      "version": "0.1.0",
+      "release": "https://github.com/kite-plus/plugin-comments/releases/tag/v0.1.0",
+      "download": {
+        "url": "https://github.com/kite-plus/plugin-comments/releases/download/v0.1.0/comments-0.1.0.zip",
+        "sha256": "f02cbcaaadfd5f433f539be2b0a4826a5512b7f86cb769df7b096d4300afb1b3",
+        "size": 11684
+      },
+      "apiVersion": "kite/plugin/v1",
+      "requires": ">=0.1.0 <2.0.0",
+      "title": "Comments",
+      "description": "A comment thread under every post, with Giscus, Waline or Twikoo.",
+      "i18n": {
+        "zh-cn": {
+          "title": "评论",
+          "description": "在每篇文章下放一个评论区，支持 Giscus、Waline 和 Twikoo。"
+        }
+      },
+      "author": {
+        "name": "Kite",
+        "url": "https://github.com/kite-plus"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/kite-plus/plugin-comments",
+      "hosts": [
+        "cdn.jsdelivr.net",
+        "giscus.app",
+        "registry.npmmirror.com",
+        "unpkg.com"
+      ]
+    },
+    {
+      "name": "math",
+      "repo": "https://github.com/kite-plus/plugin-math",
+      "category": "writing",
+      "official": true,
+      "version": "0.1.0",
+      "release": "https://github.com/kite-plus/plugin-math/releases/tag/v0.1.0",
+      "download": {
+        "url": "https://github.com/kite-plus/plugin-math/releases/download/v0.1.0/math-0.1.0.zip",
+        "sha256": "e35c847618810bad814ca281f871fde1d5ae3e7d429d11d48a2837778cb8275a",
+        "size": 949054
+      },
+      "apiVersion": "kite/plugin/v1",
+      "requires": ">=0.1.0 <2.0.0",
+      "title": "Math and Diagrams",
+      "description": "Typesets TeX math with KaTeX and draws mermaid code blocks as diagrams.",
+      "i18n": {
+        "zh-cn": {
+          "title": "公式与图表",
+          "description": "用 KaTeX 排版 TeX 公式，把 mermaid 代码块画成图表。"
+        }
+      },
+      "author": {
+        "name": "Kite",
+        "url": "https://github.com/kite-plus"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/kite-plus/plugin-math",
+      "hosts": [
+        "cdn.jsdelivr.net",
+        "registry.npmmirror.com",
+        "unpkg.com"
+      ],
+      "hooks": [
+        "transform_markdown"
+      ]
+    },
+    {
+      "name": "search",
+      "repo": "https://github.com/kite-plus/plugin-search",
+      "category": "search",
+      "official": true,
+      "version": "0.1.0",
+      "release": "https://github.com/kite-plus/plugin-search/releases/tag/v0.1.0",
+      "download": {
+        "url": "https://github.com/kite-plus/plugin-search/releases/download/v0.1.0/search-0.1.0.zip",
+        "sha256": "20dee262d440cc4ebe5053d27ab46a3c11f346ebc9c95771b54285ff5fdfc59a",
+        "size": 1001406
+      },
+      "apiVersion": "kite/plugin/v1",
+      "requires": ">=0.1.0 <2.0.0",
+      "title": "Search",
+      "description": "Lets readers search every post and page, in their browser and without a server.",
+      "i18n": {
+        "zh-cn": {
+          "title": "站内搜索",
+          "description": "让读者在浏览器里搜索全部文章和页面，不需要服务端。"
+        }
+      },
+      "author": {
+        "name": "Kite",
+        "url": "https://github.com/kite-plus"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/kite-plus/plugin-search",
+      "hooks": [
+        "build_complete"
+      ]
+    }
+  ]
+}

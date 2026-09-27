@@ -1,0 +1,36 @@
+name: Suggest a theme or a plugin / 推荐主题或插件
+description: For the list, without opening a pull request. / 不提 pull request，也可以推荐收录。
+title: "Suggest: "
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository / 仓库
+      description: Its address on GitHub. / 它在 GitHub 上的地址。
+      placeholder: https://github.com/you/kite-theme-paper
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Theme or plugin / 主题还是插件
+      options:
+        - Theme / 主题
+        - Plugin / 插件
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category / 类别
+      description: One from categories.yaml, or a new one. / categories.yaml 里的一个，或者新的类别。
+  - type: checkboxes
+    id: release
+    attributes:
+      label: Its latest release / 它的最新版本
+      description: See CONTRIBUTING.md for everything a release needs. / 完整条件见 CONTRIBUTING.zh-CN.md。
+      options:
+        - label: carries the zip the studio installs, tagged with its version / 附带能在后台安装的 zip，tag 就是版本号
+          required: true
+        - label: passes `kite theme verify` or `kite plugin verify` with the latest Kite / 用最新的 Kite 检查能通过
+          required: true

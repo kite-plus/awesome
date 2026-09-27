@@ -1,0 +1,70 @@
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: tools/go.mod
+          cache-dependency-path: tools/go.sum
+
+      - name: Test the tools
+        run: make test
+
+      - name: Check the list
+        run: make check
+
+  # Proves that what a pull request adds can be listed before it is merged,
+  # and prints what the list will say about it for the review.
+  entries:
+    name: Check the entries it adds
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: tools/go.mod
+          cache-dependency-path: tools/go.sum
+
+      - name: Install Kite's latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          dir="$RUNNER_TEMP/kite"
+          gh release download --repo kite-plus/kite --dir "$dir" \
+            --pattern 'kite_*_linux_amd64.tar.gz' --pattern checksums.txt
+          cd "$dir"
+          sha256sum --check --ignore-missing checksums.txt
+          tar -xzf kite_*_linux_amd64.tar.gz kite
+          echo "$dir" >> "$GITHUB_PATH"
+
+      # The names come from the pull request, so they stay out of the
+      # script's text and reach the tool as arguments.
+      - name: Check them
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mapfile -d '' entries < <(git diff -z --name-only --diff-filter=AMR \
+            "origin/$GITHUB_BASE_REF...HEAD" -- 'themes/*.yaml' 'plugins/*.yaml')
+          if [ "${#entries[@]}" -eq 0 ]; then
+            echo "The pull request adds or changes no entry."
+            exit 0
+          fi
+          go -C tools run . sync -dry-run "${entries[@]}"
