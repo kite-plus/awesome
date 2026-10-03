@@ -13,7 +13,7 @@ index.json. To change a list, edit themes/ or plugins/ instead. -->
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <a href="https://github.com/kite-plus/awesome/actions/workflows/check.yml"><img src="https://github.com/kite-plus/awesome/actions/workflows/check.yml/badge.svg" alt="Check"></a>
 <!-- BEGIN awesome:badges -->
-  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.1"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.1-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="Checked with Kite 0.1.1"></a>
+  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.9"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.9-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="Checked with Kite 0.1.9"></a>
   <a href="#themes"><img src="https://img.shields.io/badge/themes-1-4A77D6" alt="Themes listed: 1"></a>
   <a href="#plugins"><img src="https://img.shields.io/badge/plugins-4-4A77D6" alt="Plugins listed: 4"></a>
 <!-- END awesome:badges -->
@@ -31,7 +31,7 @@ Each one here lives in its own repository and has a release whose zip
 installs straight from Kite's studio.
 
 <!-- BEGIN awesome:status -->
-The latest release of every entry has been checked with Kite 0.1.1, the latest version: it installs, and it loads.
+The latest release of every entry has been checked with Kite 0.1.9, the latest version: it installs, and it loads.
 <!-- END awesome:status -->
 
 - [Themes](#themes)
@@ -47,8 +47,8 @@ personal writing, in light and dark. These are the others.
 <!-- BEGIN awesome:themes -->
 <table>
 <tr>
-<td width="320" valign="top"><a href="https://github.com/kite-plus/theme-vane"><img src="https://raw.githubusercontent.com/kite-plus/theme-vane/v0.2.0/screenshot.webp" width="320" alt="Screenshot of Vane"></a></td>
-<td valign="top"><strong><a href="https://github.com/kite-plus/theme-vane">Vane</a></strong><br><sub>Documentation · Official · <a href="https://github.com/kite-plus/theme-vane/releases/tag/v0.2.0">0.2.0</a></sub><br><br>A documentation theme for product docs, project sites and knowledge bases, drawn on paper in ink. A home page with a kite in its sky, docs in an ordered tree with a table of contents, and news, by day and by night, with nothing loaded from third parties.</td>
+<td width="320" valign="top"><a href="https://github.com/kite-plus/theme-vane"><img src="https://raw.githubusercontent.com/kite-plus/theme-vane/v1.0.2/screenshot.webp" width="320" alt="Screenshot of Vane"></a></td>
+<td valign="top"><strong><a href="https://github.com/kite-plus/theme-vane">Vane</a></strong><br><sub>Documentation · Official · <a href="https://github.com/kite-plus/theme-vane/releases/tag/v1.0.2">1.0.2</a></sub><br><br>A documentation theme for product docs, project sites and knowledge bases, drawn on paper in ink. A home page with a kite in its sky, docs in an ordered tree with a table of contents, and news, by day and by night, with nothing loaded from third parties.</td>
 </tr>
 </table>
 <!-- END awesome:themes -->

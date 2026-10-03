@@ -13,7 +13,7 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <a href="https://github.com/kite-plus/awesome/actions/workflows/check.yml"><img src="https://github.com/kite-plus/awesome/actions/workflows/check.yml/badge.svg" alt="检查"></a>
 <!-- BEGIN awesome:badges -->
-  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.1"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.1-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="用 Kite 0.1.1 检查过"></a>
+  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.9"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.9-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="用 Kite 0.1.9 检查过"></a>
   <a href="#主题"><img src="https://img.shields.io/badge/themes-1-4A77D6" alt="收录的主题：1"></a>
   <a href="#插件"><img src="https://img.shields.io/badge/plugins-4-4A77D6" alt="收录的插件：4"></a>
 <!-- END awesome:badges -->
@@ -28,7 +28,7 @@
 主题决定 [Kite](https://github.com/kite-plus/kite) 网站的样子，插件加上主题之外的功能：评论、统计、站内搜索、公式。这里收录的每一项都放在自己的仓库里，都有发布版本，附带的 zip 可以直接在后台安装。
 
 <!-- BEGIN awesome:status -->
-每一项的最新版本都用 Kite 0.1.1（目前最新的版本）检查过：能安装，能加载。
+每一项的最新版本都用 Kite 0.1.9（目前最新的版本）检查过：能安装，能加载。
 <!-- END awesome:status -->
 
 - [主题](#主题)
@@ -43,8 +43,8 @@ Kite 自带一套主题，编译在程序里，不需要安装：为个人写作
 <!-- BEGIN awesome:themes -->
 <table>
 <tr>
-<td width="320" valign="top"><a href="https://github.com/kite-plus/theme-vane"><img src="https://raw.githubusercontent.com/kite-plus/theme-vane/v0.2.0/screenshot.webp" width="320" alt="风标的截图"></a></td>
-<td valign="top"><strong><a href="https://github.com/kite-plus/theme-vane">风标</a></strong><br><sub>文档 · 官方 · <a href="https://github.com/kite-plus/theme-vane/releases/tag/v0.2.0">0.2.0</a></sub><br><br>为产品文档、项目官网和知识库设计的文档主题，纸上落墨。天空里飘着风筝的首页、按顺序排列的文档目录、页内目录和新闻，白天与夜晚两种样子，不从第三方加载任何资源。</td>
+<td width="320" valign="top"><a href="https://github.com/kite-plus/theme-vane"><img src="https://raw.githubusercontent.com/kite-plus/theme-vane/v1.0.2/screenshot.webp" width="320" alt="风标的截图"></a></td>
+<td valign="top"><strong><a href="https://github.com/kite-plus/theme-vane">风标</a></strong><br><sub>文档 · 官方 · <a href="https://github.com/kite-plus/theme-vane/releases/tag/v1.0.2">1.0.2</a></sub><br><br>为产品文档、项目官网和知识库设计的文档主题，纸上落墨。天空里飘着风筝的首页、按顺序排列的文档目录、页内目录和新闻，白天与夜晚两种样子，不从第三方加载任何资源。</td>
 </tr>
 </table>
 <!-- END awesome:themes -->
