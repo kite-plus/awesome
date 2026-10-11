@@ -1,5 +1,5 @@
 {
-  "kite": "0.1.9",
+  "kite": "0.1.10",
   "themes": [
     {
       "name": "vane",
@@ -80,21 +80,21 @@
       "repo": "https://github.com/kite-plus/plugin-comments",
       "category": "comments",
       "official": true,
-      "version": "0.1.0",
-      "release": "https://github.com/kite-plus/plugin-comments/releases/tag/v0.1.0",
+      "version": "0.2.0",
+      "release": "https://github.com/kite-plus/plugin-comments/releases/tag/v0.2.0",
       "download": {
-        "url": "https://github.com/kite-plus/plugin-comments/releases/download/v0.1.0/comments-0.1.0.zip",
-        "sha256": "f02cbcaaadfd5f433f539be2b0a4826a5512b7f86cb769df7b096d4300afb1b3",
-        "size": 11684
+        "url": "https://github.com/kite-plus/plugin-comments/releases/download/v0.2.0/comments-0.2.0.zip",
+        "sha256": "11c796dca8a1016284d96bf1ebc929233a9c27a356074fcaf68d52339deb3884",
+        "size": 13478
       },
       "apiVersion": "kite/plugin/v1",
       "requires": ">=0.1.0 <2.0.0",
       "title": "Comments",
-      "description": "A comment thread under every post, with Giscus, Waline or Twikoo.",
+      "description": "A comment thread under every post, with Giscus, Waline, Twikoo or Kite Plus Comments.",
       "i18n": {
         "zh-cn": {
           "title": "评论",
-          "description": "在每篇文章下放一个评论区，支持 Giscus、Waline 和 Twikoo。"
+          "description": "在每篇文章下放一个评论区，支持 Giscus、Waline、Twikoo 和 Kite Plus 评论。"
         }
       },
       "author": {
@@ -105,6 +105,7 @@
       "homepage": "https://github.com/kite-plus/plugin-comments",
       "hosts": [
         "cdn.jsdelivr.net",
+        "comments.kite.plus",
         "giscus.app",
         "registry.npmmirror.com",
         "unpkg.com"

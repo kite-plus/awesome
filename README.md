@@ -13,7 +13,7 @@ index.json. To change a list, edit themes/ or plugins/ instead. -->
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <a href="https://github.com/kite-plus/awesome/actions/workflows/check.yml"><img src="https://github.com/kite-plus/awesome/actions/workflows/check.yml/badge.svg" alt="Check"></a>
 <!-- BEGIN awesome:badges -->
-  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.9"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.9-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="Checked with Kite 0.1.9"></a>
+  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.10"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.10-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="Checked with Kite 0.1.10"></a>
   <a href="#themes"><img src="https://img.shields.io/badge/themes-1-4A77D6" alt="Themes listed: 1"></a>
   <a href="#plugins"><img src="https://img.shields.io/badge/plugins-4-4A77D6" alt="Plugins listed: 4"></a>
 <!-- END awesome:badges -->
@@ -31,7 +31,7 @@ Each one here lives in its own repository and has a release whose zip
 installs straight from Kite's studio.
 
 <!-- BEGIN awesome:status -->
-The latest release of every entry has been checked with Kite 0.1.9, the latest version: it installs, and it loads.
+The latest release of every entry has been checked with Kite 0.1.10, the latest version: it installs, and it loads.
 <!-- END awesome:status -->
 
 - [Themes](#themes)
@@ -58,7 +58,7 @@ personal writing, in light and dark. These are the others.
 <!-- BEGIN awesome:plugins -->
 | Plugin | What it does | Other sites it loads from |
 | --- | --- | --- |
-| **[Comments](https://github.com/kite-plus/plugin-comments)**<br><sub>Comments · Official · [0.1.0](https://github.com/kite-plus/plugin-comments/releases/tag/v0.1.0)</sub> | A comment thread under every post, with Giscus, Waline or Twikoo. | `cdn.jsdelivr.net`<br>`giscus.app`<br>`registry.npmmirror.com`<br>`unpkg.com` |
+| **[Comments](https://github.com/kite-plus/plugin-comments)**<br><sub>Comments · Official · [0.2.0](https://github.com/kite-plus/plugin-comments/releases/tag/v0.2.0)</sub> | A comment thread under every post, with Giscus, Waline, Twikoo or Kite Plus Comments. | `cdn.jsdelivr.net`<br>`comments.kite.plus`<br>`giscus.app`<br>`registry.npmmirror.com`<br>`unpkg.com` |
 | **[Analytics](https://github.com/kite-plus/plugin-analytics)**<br><sub>Analytics · Official · [0.1.0](https://github.com/kite-plus/plugin-analytics/releases/tag/v0.1.0)</sub> | Counts visits with Baidu Tongji, Google Analytics, Umami or Plausible. | `cloud.umami.is`<br>`hm.baidu.com`<br>`plausible.io`<br>`www.googletagmanager.com` |
 | **[Search](https://github.com/kite-plus/plugin-search)**<br><sub>Search · Official · [0.1.0](https://github.com/kite-plus/plugin-search/releases/tag/v0.1.0)</sub> | Lets readers search every post and page, in their browser and without a server. | None |
 | **[Math and Diagrams](https://github.com/kite-plus/plugin-math)**<br><sub>Writing · Official · [0.1.0](https://github.com/kite-plus/plugin-math/releases/tag/v0.1.0)</sub> | Typesets TeX math with KaTeX and draws mermaid code blocks as diagrams. | `cdn.jsdelivr.net`<br>`registry.npmmirror.com`<br>`unpkg.com` |

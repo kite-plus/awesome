@@ -13,7 +13,7 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <a href="https://github.com/kite-plus/awesome/actions/workflows/check.yml"><img src="https://github.com/kite-plus/awesome/actions/workflows/check.yml/badge.svg" alt="检查"></a>
 <!-- BEGIN awesome:badges -->
-  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.9"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.9-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="用 Kite 0.1.9 检查过"></a>
+  <a href="https://github.com/kite-plus/kite/releases/tag/v0.1.10"><img src="https://img.shields.io/badge/checked%20with-Kite%200.1.10-4A77D6?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMCAxNC41IEwyNyAyMSBMMjcgMzAgTDEwIDIzLjUgWiIvPjxwYXRoIGQ9Ik0xMCAzMiBMMjcgMzguNSBMMjcgNDkgTDEwIDQyLjUgWiIvPjxwYXRoIGQ9Ik0zNyAyMSBMNTQgMTQuNSBMNTQgNDIuNSBMMzcgNDkgWiIvPjwvZz48L3N2Zz4=" alt="用 Kite 0.1.10 检查过"></a>
   <a href="#主题"><img src="https://img.shields.io/badge/themes-1-4A77D6" alt="收录的主题：1"></a>
   <a href="#插件"><img src="https://img.shields.io/badge/plugins-4-4A77D6" alt="收录的插件：4"></a>
 <!-- END awesome:badges -->
@@ -28,7 +28,7 @@
 主题决定 [Kite](https://github.com/kite-plus/kite) 网站的样子，插件加上主题之外的功能：评论、统计、站内搜索、公式。这里收录的每一项都放在自己的仓库里，都有发布版本，附带的 zip 可以直接在后台安装。
 
 <!-- BEGIN awesome:status -->
-每一项的最新版本都用 Kite 0.1.9（目前最新的版本）检查过：能安装，能加载。
+每一项的最新版本都用 Kite 0.1.10（目前最新的版本）检查过：能安装，能加载。
 <!-- END awesome:status -->
 
 - [主题](#主题)
@@ -54,7 +54,7 @@ Kite 自带一套主题，编译在程序里，不需要安装：为个人写作
 <!-- BEGIN awesome:plugins -->
 | 插件 | 作用 | 会连接的其他网站 |
 | --- | --- | --- |
-| **[评论](https://github.com/kite-plus/plugin-comments)**<br><sub>评论 · 官方 · [0.1.0](https://github.com/kite-plus/plugin-comments/releases/tag/v0.1.0)</sub> | 在每篇文章下放一个评论区，支持 Giscus、Waline 和 Twikoo。 | `cdn.jsdelivr.net`<br>`giscus.app`<br>`registry.npmmirror.com`<br>`unpkg.com` |
+| **[评论](https://github.com/kite-plus/plugin-comments)**<br><sub>评论 · 官方 · [0.2.0](https://github.com/kite-plus/plugin-comments/releases/tag/v0.2.0)</sub> | 在每篇文章下放一个评论区，支持 Giscus、Waline、Twikoo 和 Kite Plus 评论。 | `cdn.jsdelivr.net`<br>`comments.kite.plus`<br>`giscus.app`<br>`registry.npmmirror.com`<br>`unpkg.com` |
 | **[访问统计](https://github.com/kite-plus/plugin-analytics)**<br><sub>统计 · 官方 · [0.1.0](https://github.com/kite-plus/plugin-analytics/releases/tag/v0.1.0)</sub> | 用百度统计、Google Analytics、Umami 或 Plausible 统计访问量。 | `cloud.umami.is`<br>`hm.baidu.com`<br>`plausible.io`<br>`www.googletagmanager.com` |
 | **[站内搜索](https://github.com/kite-plus/plugin-search)**<br><sub>搜索 · 官方 · [0.1.0](https://github.com/kite-plus/plugin-search/releases/tag/v0.1.0)</sub> | 让读者在浏览器里搜索全部文章和页面，不需要服务端。 | 无 |
 | **[公式与图表](https://github.com/kite-plus/plugin-math)**<br><sub>写作 · 官方 · [0.1.0](https://github.com/kite-plus/plugin-math/releases/tag/v0.1.0)</sub> | 用 KaTeX 排版 TeX 公式，把 mermaid 代码块画成图表。 | `cdn.jsdelivr.net`<br>`registry.npmmirror.com`<br>`unpkg.com` |
